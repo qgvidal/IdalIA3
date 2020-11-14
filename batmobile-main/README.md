@@ -1,5 +1,5 @@
 # BATMOBILE: AN INTRODUCTION TO OOP WITH PYTHON
-
+### TEAM: Data Killers!!! (Andrés Espinosa Sanfiel, Héctor Escribano Campos, Quique García Vidal)
 
 In this notebook we will solve an exercise proposed in the Master in AI and Advanced Analytics (IDAL, UV). A useful and creative aproximation on how to apply object oriented programming
 
@@ -13,3 +13,8 @@ Hi Guys Cristopher Nolan is here. Don't talk about this, but I am making a new B
 - The Rocket and PEM Pulse are the ammunition of the Batmobile, the car can only use the weapons if it has ammunition in the arsenal.
 
 
+First step to defeat joker's team is creating a strategy: 
+
+![alt text](https://github.com/qgvidal/IdalIA3/blob/main/batmobile-main/images/BatmobileDiagram.png)
+
+The players will introduce who they want to attack. Then, will answer the question about the weapon they want to use and finally, before starting the game, they will choose if turbo or not. In case they decide to use it, gas will decrease quicker (by a factor of 3 compared to not using it). The game will end in two different ways: you win if you are able to kill both, the villain and the joker or losing, if you run out of ammunition or gas. Let's start the game...
